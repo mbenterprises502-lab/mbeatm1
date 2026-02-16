@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATM Services | MB Enterprises</title>
+<meta name="description" content="Professional ATM sales, rental, placement and maintenance services by MB Enterprises. Trusted financial infrastructure provider since 1996.">
+
+<style>
+
+/* ==============================
+   GLOBAL STYLES
+============================== */
+
+:root {
+  --navy:#002B5B;
+  --emerald:#03C988;
+  --gold:#FFD700;
+  --light:#f4f7f9;
+  --dark:#1a1a1a;
+  --radius:18px;
+  --transition:0.3s ease;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:system-ui,-apple-system,sans-serif;
+  background:var(--light);
+  color:var(--dark);
+  line-height:1.6;
+}
+
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:0 20px;
+}
+
+/* ==============================
+   NAVBAR
+============================== */
+
+.site-header{
+  position:sticky;
+  top:0;
+  background:white;
+  border-bottom:1px solid #e5e5e5;
+  z-index:1000;
+}
+
+.nav-container{
+  height:80px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.logo img{
+  height:55px;
+}
+
+.nav-links{
+  list-style:none;
+  display:flex;
+  gap:30px;
+}
+
+.nav-links a{
+  text-decoration:none;
+  font-weight:600;
+  color:var(--dark);
+  transition:var(--transition);
+}
+
+.nav-links a:hover{
+  color:var(--emerald);
+}
+
+.nav-btn{
+  background:var(--navy);
+  color:white !important;
+  padding:10px 18px;
+  border-radius:50px;
+}
+
+.nav-btn:hover{
+  background:var(--emerald);
+}
+
+/* ==============================
+   HERO SECTION
+============================== */
+
+.hero{
+  background:linear-gradient(135deg,var(--navy),#001a33);
+  color:white;
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero h1{
+  font-size:clamp(2rem,4vw,3rem);
+  margin-bottom:15px;
+}
+
+.hero p{
+  max-width:700px;
+  margin:auto;
+  opacity:0.9;
+}
+
+/* ==============================
+   IMAGE SHOWCASE
+============================== */
+
+.image-section{
+  padding:80px 20px;
+  background:white;
+}
+
+.image-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:40px;
+  align-items:center;
+}
+
+.image-grid img{
+  width:100%;
+  border-radius:var(--radius);
+  box-shadow:0 20px 60px rgba(0,0,0,0.15);
+}
+
+/* ==============================
+   SERVICES SECTION
+============================== */
+
+.services{
+  padding:80px 20px;
+}
+
+.services h2{
+  text-align:center;
+  margin-bottom:50px;
+  font-size:2rem;
+  color:var(--navy);
+}
+
+.service-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+}
+
+.service-card{
+  background:white;
+  padding:30px;
+  border-radius:var(--radius);
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+  transition:var(--transition);
+}
+
+.service-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 20px 50px rgba(0,0,0,0.15);
+}
+
+.service-card h3{
+  color:var(--navy);
+  margin-bottom:15px;
+}
+
+.service-card ul{
+  padding-left:18px;
+}
+
+/* ==============================
+   WHY CHOOSE US
+============================== */
+
+.why{
+  background:var(--navy);
+  color:white;
+  padding:80px 20px;
+}
+
+.why h2{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.why ul{
+  max-width:700px;
+  margin:auto;
+  line-height:2;
+}
+
+/* ==============================
+   FOOTER
+============================== */
+
+footer{
+  background:#001a33;
+  color:white;
+  text-align:center;
+  padding:25px;
+  font-size:0.9rem;
+}
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media(max-width:768px){
+
+  .nav-links{
+    display:none;
+  }
+
+}
+
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="site-header">
+<nav class="nav-container container" aria-label="Main Navigation">
+
+<div class="logo">
+<a href="/" aria-label="MB Enterprises Home">
+<img src="../PIC/atmpng.jpeg" alt="MB Enterprises Official Logo">
+</a>
+</div>
+
+<ul class="nav-links">
+<li><a href="./atm-terminals.html">ATM Terminals</a></li>
+<li><a href="./services.html">Our Services</a></li>
+<li><a href="./franchise.html">Franchise Model</a></li>
+<li><a href="./security.html">Security & Compliance</a></li>
+<li><a href="./contact.html" class="nav-btn">Start Enquiry</a></li>
+</ul>
+
+</nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+<h1>Premium ATM Solutions & Financial Infrastructure</h1>
+<p>MB Enterprises delivers secure, scalable and high-performance ATM deployment solutions for businesses across Canada.</p>
+</section>
+
+<!-- IMAGES -->
+<section class="image-section container">
+<div class="image-grid">
+
+<div>
+<img src="../PIC/add.jpg" alt="MB Enterprises ATM Installation">
+</div>
+
+<div>
+<img src="../PIC/mbe.jpg" alt="MB Enterprises Financial Partner ATM">
+</div>
+
+</div>
+</section>
+
+<!-- SERVICES -->
+<section class="services container">
+<h2>Our ATM Services</h2>
+
+<div class="service-grid">
+
+<div class="service-card">
+<h3>ATM Sales</h3>
+<p>New and refurbished ATM machines with full installation and configuration support.</p>
+</div>
+
+<div class="service-card">
+<h3>ATM Rental</h3>
+<p>Flexible short-term and long-term rental solutions for events and retail businesses.</p>
+</div>
+
+<div class="service-card">
+<h3>Free ATM Placement</h3>
+<p>We install at zero cost. You earn commission on every transaction processed.</p>
+</div>
+
+<div class="service-card">
+<h3>Maintenance & Support</h3>
+<ul>
+<li>24/7 technical support</li>
+<li>Cash loading service</li>
+<li>Software updates</li>
+<li>Security monitoring</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section class="why">
+<h2>Why Choose MB Enterprises?</h2>
+<ul>
+<li>Trusted Financial Partner Since 1996</li>
+<li>PCI-DSS & EMV Certified Infrastructure</li>
+<li>Rapid Deployment & Professional Installation</li>
+<li>Advanced Transaction Security</li>
+<li>Dedicated Support Team</li>
+</ul>
+</section>
+
+<footer>
+© 2026 MB Enterprises. All Rights Reserved.
+</footer>
+
+</body>
+</html>

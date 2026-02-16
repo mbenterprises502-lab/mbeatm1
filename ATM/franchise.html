@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Franchise Model | MB Enterprises</title>
+
+<style>
+
+/* =============================
+   RESET & GENERAL
+============================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* =============================
+   NAVBAR
+============================= */
+.navbar {
+    background: #002B5B;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bfff;
+}
+
+/* =============================
+   HERO
+============================= */
+.hero {
+    background: linear-gradient(135deg, #002B5B, #001F3F);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* =============================
+   SECTIONS
+============================= */
+section {
+    padding: 70px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section h2 {
+    margin-bottom: 25px;
+    color: #002B5B;
+}
+
+/* =============================
+   CARD
+============================= */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+/* =============================
+   GRID
+============================= */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+/* =============================
+   CTA BUTTON
+============================= */
+.cta {
+    display: inline-block;
+    padding: 14px 30px;
+    background: #002B5B;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    background: #001F3F;
+    transform: translateY(-3px);
+}
+
+/* =============================
+   FOOTER
+============================= */
+footer {
+    background: #002B5B;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+}
+
+/* =============================
+   CTA SECTION
+============================= */
+.cta-section {
+    text-align: center;
+}
+
+/* =============================
+   RESPONSIVE
+============================= */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- =============================
+     NAVBAR
+============================= -->
+<nav class="navbar">
+    <div class="logo">MB Enterprises</div>
+    <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./security.html">Security</a></li>
+        <li><a href="./atm-terminals.html">Franchise</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- =============================
+     HERO
+============================= -->
+<header class="hero">
+    <h1>ATM Franchise Model</h1>
+    <p>Build Passive Income with Secure & Trusted ATM Infrastructure</p>
+</header>
+
+<!-- =============================
+     WHY CHOOSE US
+============================= -->
+<section>
+    <div class="card">
+        <h2>Why Choose MB Enterprises?</h2>
+        <p>
+            MB Enterprises offers a proven ATM franchise system with over two decades 
+            of industry expertise. We provide complete operational support, compliance 
+            management, and revenue optimization strategies.
+        </p>
+        <ul>
+            <li>✔ Proven Business Model Since 1996</li>
+            <li>✔ Recurring Monthly Commission Income</li>
+            <li>✔ PCI-DSS Compliant Secure Systems</li>
+            <li>✔ Fast Deployment & Professional Setup</li>
+        </ul>
+    </div>
+</section>
+
+<!-- =============================
+     ATM OPTIONS
+============================= -->
+<section>
+    <h2>Available ATM Solutions</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Retail ATM Placement</h3>
+            <p>Ideal for stores, gas stations, and supermarkets.</p>
+        </div>
+
+        <div class="card">
+            <h3>Corporate Lobby ATM</h3>
+            <p>Secure indoor installation for offices & buildings.</p>
+        </div>
+
+        <div class="card">
+            <h3>Drive-Thru ATM</h3>
+            <p>High-volume outdoor ATM for busy locations.</p>
+        </div>
+
+        <div class="card">
+            <h3>Event & Temporary ATM</h3>
+            <p>Short-term rentals for public events and festivals.</p>
+        </div>
+
+        <div class="card">
+            <h3>EMV & Contactless ATM</h3>
+            <p>Modern chip-enabled & NFC-ready machines.</p>
+        </div>
+
+        <div class="card">
+            <h3>Free Placement Program</h3>
+            <p>No upfront cost for approved high-traffic areas.</p>
+        </div>
+    </div>
+</section>
+
+<!-- =============================
+     WHAT WE PROVIDE
+============================= -->
+<section>
+    <div class="card">
+        <h2>What We Provide</h2>
+        <ul>
+            <li>ATM Machine Supply & Installation</li>
+            <li>Vault Cash Management</li>
+            <li>24/7 Monitoring & Technical Support</li>
+            <li>Preventive Maintenance</li>
+            <li>Transaction Processing & Reports</li>
+            <li>Marketing & Branding Assistance</li>
+        </ul>
+    </div>
+</section>
+
+<!-- =============================
+     INVESTMENT
+============================= -->
+<section>
+    <div class="card">
+        <h2>Investment & Returns</h2>
+        <p>
+            Investment varies depending on ATM type and location. 
+            Revenue is generated through surcharge fees and shared commission models.
+        </p>
+        <ul>
+            <li>Low Initial Investment</li>
+            <li>Monthly Recurring Revenue</li>
+            <li>ROI Within 8–14 Months*</li>
+        </ul>
+        <small>*Return depends on location traffic.</small>
+    </div>
+</section>
+
+<!-- =============================
+     WHO CAN APPLY
+============================= -->
+<section>
+    <div class="card">
+        <h2>Who Can Apply?</h2>
+        <ul>
+            <li>Shop Owners</li>
+            <li>Investors</li>
+            <li>Entrepreneurs</li>
+            <li>Commercial Property Owners</li>
+            <li>Fuel Stations & Supermarkets</li>
+        </ul>
+    </div>
+</section>
+
+<!-- =============================
+     CTA
+============================= -->
+<section class="cta-section">
+    <h2>Start Your ATM Franchise Today</h2>
+    <p>Join MB Enterprises and build a reliable passive income stream.</p>
+    <br>
+    <a href="contact.html" class="cta">Apply for Franchise</a>
+</section>
+
+<!-- =============================
+     FOOTER
+============================= -->
+<footer>
+    © 2026 MB Enterprises | Secure • Profitable • Trusted
+</footer>
+
+</body>
+</html>

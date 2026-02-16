@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATM Terminals | MB Enterprises</title>
+
+<style>
+
+/* ===== GENERAL ===== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #222;
+}
+
+/* ===== NAVBAR ===== */
+.site-header {
+    background: #002B5B;
+    padding: 15px 30px;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #25D366;
+}
+
+/* ===== HEADER TITLE ===== */
+.page-header {
+    background: linear-gradient(135deg, #002B5B, #001F3F);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* ===== CONTENT SECTIONS ===== */
+section.content-section {
+    padding: 40px 20px;
+    background: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 1100px;
+}
+
+h2 {
+    color: #002B5B;
+    margin-bottom: 15px;
+}
+
+ul {
+    line-height: 1.8;
+    padding-left: 20px;
+}
+
+/* ===== COMPLIANCE SECTION ===== */
+.compliance-bar {
+    background: #ffffff;
+    padding: 50px 20px;
+    margin-top: 40px;
+}
+
+.compliance-inner {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.compliance-label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #002B5B;
+}
+
+.badge-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    align-items: center;
+}
+
+.badge-grid img {
+    width: 100%;
+    max-width: 150px;
+    margin: auto;
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+}
+
+.badge-grid img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #002B5B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* ===== MOBILE ===== */
+@media(max-width:768px){
+    .nav-links{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="site-header">
+    <nav class="nav-container">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../PIC/atmpng.jpeg" alt="MB Enterprises Logo">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./atm-terminals.html">ATM Terminals</a></li>
+            <li><a href="./services.html">Our Services</a></li>
+            <li><a href="./franchise.html">Franchise</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- PAGE HEADER -->
+<section class="page-header">
+    <h1>ATM Terminals</h1>
+    <p>Secure • Reliable • High Performance Machines</p>
+</section>
+
+<!-- ABOUT -->
+<section class="content-section">
+    <h2>About Our ATM Machines</h2>
+    <p>
+        MB Enterprises provides high-quality, secure, and reliable ATM terminals for businesses.
+        Our machines are modern, easy to use, and fully compliant with banking security standards.
+    </p>
+</section>
+
+<!-- FEATURES -->
+<section class="content-section">
+    <h2>Features</h2>
+    <ul>
+        <li>High security encrypted transactions</li>
+        <li>Fast cash dispensing</li>
+        <li>Card + Contactless support</li>
+        <li>EMV chip compatible</li>
+        <li>Receipt printing</li>
+        <li>24/7 monitoring system</li>
+    </ul>
+</section>
+
+<!-- ADVANTAGES -->
+<section class="content-section">
+    <h2>Advantages</h2>
+    <ul>
+        <li>Increases customer convenience</li>
+        <li>Available 24/7</li>
+        <li>Secure transaction system</li>
+        <li>Reduces long bank queues</li>
+    </ul>
+</section>
+
+<!-- DISADVANTAGES -->
+<section class="content-section">
+    <h2>Disadvantages</h2>
+    <ul>
+        <li>Requires maintenance</li>
+        <li>Needs electricity and internet</li>
+        <li>Cash refilling required</li>
+    </ul>
+</section>
+
+<!-- BUSINESS BENEFITS -->
+<section class="content-section">
+    <h2>Benefits for Business Owners</h2>
+    <ul>
+        <li>Earn surcharge income per transaction</li>
+        <li>Increase foot traffic in your store</li>
+        <li>Boost sales revenue</li>
+        <li>Enhance business reputation</li>
+    </ul>
+</section>
+
+<!-- COMPLIANCE / TRUST SECTION -->
+<section class="compliance-bar">
+    <div class="compliance-inner">
+        <p class="compliance-label">Certified Trusted Partners:</p>
+        <div class="badge-grid">
+            <img src="../PIC/WhatsApp Image 2026-02-11 at 6.38.19 PM.jpeg" alt="PCI DSS Compliant" loading="lazy">
+            <img src="../PIC/WhatsApp Image 2026-02-11 at 6.38.20 PM (2).jpeg" alt="EMV Certified" loading="lazy">
+            <img src="../PIC/atmpng.jpeg" alt="ADA Compliant" loading="lazy">
+            <img src="../PIC/WhatsApp Image 2026-02-11 at 6.38.19 PM.jpeg" alt="Interac Network" loading="lazy">
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 MB Enterprises | All Rights Reserved
+</footer>
+
+</body>
+</html>

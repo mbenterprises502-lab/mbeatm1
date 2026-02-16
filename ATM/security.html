@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Security & Compliance | MB Enterprises</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+/* ===== GENERAL ===== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #222;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+/* ===== NAVBAR ===== */
+.site-header {
+    background: #002B5B;
+    padding: 15px 30px;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #25D366;
+}
+
+/* ===== HERO ===== */
+.hero {
+    background: linear-gradient(135deg, #002B5B, #001F3F);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* ===== GRID ===== */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+/* ===== CTA ===== */
+.cta {
+    display: inline-block;
+    padding: 14px 25px;
+    background: #002B5B;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.cta:hover {
+    background: #001F3F;
+    transform: translateY(-3px);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    background: #002B5B;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* ===== TEXT CENTER ===== */
+.text-center {
+    text-align: center;
+}
+
+/* ===== MOBILE ===== */
+@media(max-width:768px){
+    .nav-links{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="site-header">
+    <nav class="nav-container">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../PIC/atmpng.jpeg" alt="MB Enterprises Logo">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./atm-terminals.html">ATM Terminals</a></li>
+            <li><a href="./services.html">Our Services</a></li>
+            <li><a href="./franchise.html">Franchise</a></li>
+            <li><a href="./security.html">Security</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+<header class="hero">
+    <h1>Security & Compliance</h1>
+    <p>Protecting Every Transaction with Advanced Financial Security Standards</p>
+</header>
+
+<!-- ATM SECURITY -->
+<section>
+    <div class="card">
+        <h2>ATM Security Standards</h2>
+        <p>
+            At MB Enterprises, security is our top priority. Every ATM machine
+            is deployed with multi-layer protection systems to safeguard user
+            data, financial transactions, and operational integrity.
+        </p>
+
+        <div class="grid">
+            <div>
+                <h3>🔐 Encrypted Transactions</h3>
+                <p>All transactions are protected with advanced encryption technology.</p>
+            </div>
+
+            <div>
+                <h3>🔢 Secure PIN Protection</h3>
+                <p>Encrypted PIN pads prevent unauthorized access or data interception.</p>
+            </div>
+
+            <div>
+                <h3>🛡 Anti-Skimming Devices</h3>
+                <p>Physical and electronic anti-skimming solutions installed in every unit.</p>
+            </div>
+
+            <div>
+                <h3>📹 CCTV Monitoring</h3>
+                <p>Continuous surveillance for fraud prevention and safety assurance.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- REGULATORY COMPLIANCE -->
+<section>
+    <div class="card">
+        <h2>Regulatory Compliance</h2>
+        <p>
+            MB Enterprises operates under strict financial and banking regulations
+            required by national and international authorities.
+        </p>
+        <ul>
+            <li>✔ PCI-DSS Certified Payment Processing</li>
+            <li>✔ EMV Chip Technology Compliance</li>
+            <li>✔ Government Financial Regulations</li>
+            <li>✔ Data Protection & Privacy Standards</li>
+            <li>✔ ADA Accessibility Compliance</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CUSTOMER PROTECTION -->
+<section>
+    <div class="card">
+        <h2>Customer Protection Commitment</h2>
+        <ul>
+            <li>✔ Real-Time Transaction Monitoring</li>
+            <li>✔ Fraud Detection Alerts</li>
+            <li>✔ Secure Cash Handling Procedures</li>
+            <li>✔ Dedicated Technical Support Team</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="text-center">
+    <h2>Have Questions About Security?</h2>
+    <p>Speak directly with our compliance and security specialists.</p>
+    <a href="./contact.html" class="cta">Contact Security Team</a>
+</section>
+
+<footer>
+    © 2026 MB Enterprises | Secure • Compliant • Trusted Since 1996
+</footer>
+
+</body>
+</html>
